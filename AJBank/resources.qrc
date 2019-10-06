@@ -1,0 +1,103 @@
+<RCC>
+    <qresource prefix="/button">
+        <file>buttons/22 Carat.png</file>
+        <file>buttons/24 Carat.png</file>
+        <file>buttons/Admin.png</file>
+        <file>buttons/AED.png</file>
+        <file>buttons/Air Ticket.png</file>
+        <file>buttons/BankServices.png</file>
+        <file>buttons/BillPayment.png</file>
+        <file>buttons/Business.png</file>
+        <file>buttons/Car Loan.png</file>
+        <file>buttons/Confirm.png</file>
+        <file>buttons/Confirm2.png</file>
+        <file>buttons/CurrencyConvertor.png</file>
+        <file>buttons/Deposit.png</file>
+        <file>buttons/Economy.png</file>
+        <file>buttons/Education Loan.png</file>
+        <file>buttons/ExistingCustomer.png</file>
+        <file>buttons/First.png</file>
+        <file>buttons/FundsTransfer.png</file>
+        <file>buttons/Generate.png</file>
+        <file>buttons/Gold Loan.png</file>
+        <file>buttons/Home Loan.png</file>
+        <file>buttons/INR.png</file>
+        <file>buttons/Loans.png</file>
+        <file>buttons/Login.png</file>
+        <file>buttons/Logo.png</file>
+        <file>buttons/Main Menu.png</file>
+        <file>buttons/MobileBill.png</file>
+        <file>buttons/Monthly.png</file>
+        <file>buttons/Movie Ticket.png</file>
+        <file>buttons/NewCustomer.png</file>
+        <file>buttons/Quarterly.png</file>
+        <file>buttons/Quit.png</file>
+        <file>buttons/Standard.png</file>
+        <file>buttons/Tickets.png</file>
+        <file>buttons/Update.png</file>
+        <file>buttons/USD.png</file>
+        <file>buttons/User.png</file>
+        <file>buttons/UtilityBill.png</file>
+        <file>buttons/View.png</file>
+        <file>buttons/VIP.png</file>
+        <file>buttons/White.png</file>
+        <file>buttons/Withdrawal.png</file>
+        <file>buttons/Proceed.png</file>
+        <file>buttons/ProceedMainMenu.png</file>
+        <file>buttons/Quit2.png</file>
+        <file>buttons/Blue.png</file>
+        <file>buttons/Convert.png</file>
+        <file>buttons/Back.png</file>
+        <file>buttons/Logout.png</file>
+        <file>buttons/Suggest.png</file>
+        <file>buttons/SuggestButton.png</file>
+        <file>buttons/TransSummary.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>background/CurrencyConvertor.jpg</file>
+        <file>background/Admin.jpg</file>
+        <file>background/AirTicket1.jpg</file>
+        <file>background/AirTicket2.jpg</file>
+        <file>background/BankServices.jpg</file>
+        <file>background/BillPayment.jpg</file>
+        <file>background/CarLoan1.jpg</file>
+        <file>background/CarLoan2.jpg</file>
+        <file>background/Deposit1.jpg</file>
+        <file>background/Deposit2.jpg</file>
+        <file>background/EducationLoan1.jpg</file>
+        <file>background/EducationLoan2.jpg</file>
+        <file>background/FundsTransfer1.jpg</file>
+        <file>background/FundsTransfer2.jpg</file>
+        <file>background/GoldLoan1.jpg</file>
+        <file>background/GoldLoan2.jpg</file>
+        <file>background/HomeLoan1.jpg</file>
+        <file>background/HomeLoan2.jpg</file>
+        <file>background/Loan.jpg</file>
+        <file>background/Login.jpg</file>
+        <file>background/MainMenu.jpg</file>
+        <file>background/MenuBlank.jpg</file>
+        <file>background/MobileBill1.jpg</file>
+        <file>background/MobileBill2.jpg</file>
+        <file>background/MovieTicket1.jpg</file>
+        <file>background/MovieTicket2.jpg</file>
+        <file>background/NewCustomer.jpg</file>
+        <file>background/Slide36.jpg</file>
+        <file>background/Slide37.jpg</file>
+        <file>background/Ticket.jpg</file>
+        <file>background/TransactionList.jpg</file>
+        <file>background/UserNamePassword.jpg</file>
+        <file>background/UtilityBill1.jpg</file>
+        <file>background/UtilityBill2.jpg</file>
+        <file>background/ViewDetails.jpg</file>
+        <file>background/Withdrawal1.jpg</file>
+        <file>background/Withdrawal2.jpg</file>
+        <file>background/Logo.png</file>
+        <file>background/SuggestPage.jpg</file>
+        <file>buttons/SuggestButton.png</file>
+        <file>background/WelcomeWindow.jpg</file>
+        <file>background/UpdateDetails.jpg</file>
+        <file>buttons/Loading.gif</file>
+        <file>background/AdminPage.jpg</file>
+        <file>buttons/Trans.png</file>
+    </qresource>
+</RCC>

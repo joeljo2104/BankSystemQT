@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GoldLoan1</class>
+ <widget class="QMainWindow" name="GoldLoan1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1366</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>AJ Bank | Gold Loan</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/background/GoldLoan1.jpg);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="ConfirmGoldLoanB">
+    <property name="geometry">
+     <rect>
+      <x>549</x>
+      <y>627</y>
+      <width>332</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/button/buttons/Confirm.png);
+background-position:center;
+border-radius:100%;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="default">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="GoldLoanTime">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>301</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat SemiBold</family>
+      <pointsize>28</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="maximum">
+     <double>10.000000000000000</double>
+    </property>
+    <property name="singleStep">
+     <double>0.500000000000000</double>
+    </property>
+    <property name="value">
+     <double>1.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Currency_3">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>541</y>
+      <width>31</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/button/buttons/Blue.png);
+color: rgb(255, 255, 255);
+font: 81 24pt &quot;Montserrat ExtraBold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>₹</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="GoldLoanRepayment">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>541</y>
+      <width>381</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/button/buttons/Blue.png);
+color: rgb(255, 255, 255);
+font: 81 24pt &quot;Montserrat ExtraBold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Currency">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>421</y>
+      <width>31</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/button/buttons/Blue.png);
+color: rgb(255, 255, 255);
+font: 81 24pt &quot;Montserrat ExtraBold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>₹</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Currency_4">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>241</y>
+      <width>31</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/button/buttons/Blue.png);
+color: rgb(255, 255, 255);
+font: 81 24pt &quot;Montserrat ExtraBold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>₹</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="GoldLoanInterest">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>421</y>
+      <width>381</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/button/buttons/Blue.png);
+color: rgb(255, 255, 255);
+font: 81 24pt &quot;Montserrat ExtraBold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="GoldLoanAmount">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>481</y>
+      <width>381</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/button/buttons/Blue.png);
+color: rgb(255, 255, 255);
+font: 81 24pt &quot;Montserrat ExtraBold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Currency_2">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>481</y>
+      <width>31</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/button/buttons/Blue.png);
+color: rgb(255, 255, 255);
+font: 81 24pt &quot;Montserrat ExtraBold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>₹</string>
+    </property>
+   </widget>
+   <widget class="QSlider" name="GoldLoanSlider">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>200</y>
+      <width>351</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/button/buttons/Blue.png);</string>
+    </property>
+    <property name="minimum">
+     <number>100000</number>
+    </property>
+    <property name="maximum">
+     <number>1000000</number>
+    </property>
+    <property name="pageStep">
+     <number>10000</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+    <property name="invertedAppearance">
+     <bool>false</bool>
+    </property>
+    <property name="invertedControls">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="GoldLoanAmountT">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>240</y>
+      <width>381</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/button/buttons/Blue.png);
+color: rgb(255, 255, 255);
+font: 81 24pt &quot;Montserrat ExtraBold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BackButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>93</y>
+      <width>150</width>
+      <height>581</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/button/buttons/Back.png);
+border: 0px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="LogoutButton">
+    <property name="geometry">
+     <rect>
+      <x>949</x>
+      <y>384</y>
+      <width>421</width>
+      <height>384</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/button/buttons/Logout.png);
+border: 0px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SuggestButton">
+    <property name="geometry">
+     <rect>
+      <x>949</x>
+      <y>0</y>
+      <width>421</width>
+      <height>384</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/button/buttons/Suggest.png);
+border: 0px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="AccountNo">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>70</y>
+      <width>231</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/button/buttons/Blue.png);
+font: 25 11pt &quot;Montserrat Thin&quot;;
+color: rgb(6, 53, 122);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

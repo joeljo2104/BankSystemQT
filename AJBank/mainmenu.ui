@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainMenu</class>
+ <widget class="QMainWindow" name="MainMenu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1366</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>AJ Bank | Main Menu</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/background/MainMenu.jpg);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="QuitB">
+    <property name="geometry">
+     <rect>
+      <x>489</x>
+      <y>638</y>
+      <width>510</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/button/buttons/Quit.png);
+background-position:center;border-radius:100%;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FundsTransferB">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>498</y>
+      <width>450</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/button/buttons/FundsTransfer.png);
+background-position:center;border-radius:100%;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="TicketsB">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>367</y>
+      <width>450</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/button/buttons/Tickets.png);
+background-position:center;border-radius:100%;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BankServicesB">
+    <property name="geometry">
+     <rect>
+      <x>292</x>
+      <y>235</y>
+      <width>450</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/button/buttons/BankServices.png);
+background-position:center;border-radius:100%;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="CurrencyConvertorB">
+    <property name="geometry">
+     <rect>
+      <x>763</x>
+      <y>498</y>
+      <width>450</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/button/buttons/CurrencyConvertor.png);
+background-position:center;border-radius:100%;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="LoansB">
+    <property name="geometry">
+     <rect>
+      <x>759</x>
+      <y>366</y>
+      <width>450</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/button/buttons/Loans.png);
+background-position:center;border-radius:100%;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BillPaymentB">
+    <property name="geometry">
+     <rect>
+      <x>759</x>
+      <y>236</y>
+      <width>450</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/button/buttons/BillPayment.png);
+background-position:center;border-radius:100%;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="LogoutButton">
+    <property name="geometry">
+     <rect>
+      <x>949</x>
+      <y>384</y>
+      <width>421</width>
+      <height>384</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/button/buttons/Logout.png);
+border: 0px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SuggestButton">
+    <property name="geometry">
+     <rect>
+      <x>949</x>
+      <y>0</y>
+      <width>421</width>
+      <height>384</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/button/buttons/Suggest.png);
+border: 0px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="AccountNo">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>60</y>
+      <width>231</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/button/buttons/Blue.png);
+font: 25 11pt &quot;Montserrat Thin&quot;;
+color: rgb(6, 53, 122);</string>
+    </property>
+    <property name="text">
+     <string>CurrentAccount:</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
